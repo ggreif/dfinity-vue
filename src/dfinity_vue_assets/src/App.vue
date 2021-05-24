@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <div>{{ internetComputerGreeting || 'Loading message from Internet Computer...' }}</div>
+    <v-content>{{ internetComputerGreeting || 'Loading message from Internet Computer...' }}</v-content>
   </v-app>
 </template>
 
