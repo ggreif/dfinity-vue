@@ -5,10 +5,6 @@
 	<v-toolbar-title><span class="font-weight-light">Code</span><span>Name</span></v-toolbar-title>
 	<v-spacer/>
 	<Ident/>
-	<v-btn flat color="grey">
-          <span>Sign Out</span>
-	  <v-icon right>exit_to_app</v-icon>
-	</v-btn>
       </v-toolbar>
     </nav>
     <v-content>{{ internetComputerGreeting || 'Loading message from Internet Computer...' }}</v-content>
