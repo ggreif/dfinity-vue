@@ -5,6 +5,18 @@
 	<v-app-bar-title shrink-on-scroll>
 	  <span class="font-weight-light">Code</span><span>Name</span>
 	</v-app-bar-title>
+	<v-menu offset-y>
+          <template v-slot:activator="{ on }">
+	    <v-btn text slot="activator" color="primary" dark v-on="on">
+	      <span>Locations</span>
+	    </v-btn>
+	  </template>
+	  <v-list>
+	    <v-list-tile :key="'xxx'" router :to="'/nowhere'">
+	      <v-list-tile-title>item</v-list-tile-title>
+	    </v-list-tile>
+	  </v-list>
+	</v-menu>
 	<v-spacer/>
 	<Ident/>
       </v-app-bar>
