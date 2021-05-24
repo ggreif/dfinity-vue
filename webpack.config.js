@@ -67,7 +67,7 @@ function generateWebpackConfigForCanister(name, info, env) {
       rules: [
         { test: /\.css$/, use: ["style-loader", "css-loader"] },
         { test: /\.vue$/, loader: "vue-loader" },
-	{ test: /\.(woff2?|eot|ttf|otf)$/,
+        { test: /\.(woff2?|eot|ttf|otf)$/,
           loader: 'file-loader',
           options: {
               limit: 10000,
@@ -81,6 +81,7 @@ function generateWebpackConfigForCanister(name, info, env) {
       new HtmlWebpackPlugin({
         template: path.join(__dirname, info.frontend.entrypoint),
         filename: 'index.html',
+        title: 'CodeName',
         chunks: ['index'],
       }),
       new webpack.ProvidePlugin({
