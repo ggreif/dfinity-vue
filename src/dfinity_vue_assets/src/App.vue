@@ -1,13 +1,13 @@
 <template>
   <v-app>
     <nav>
-      <v-toolbar app max-height=55>
+      <v-app-bar app max-height=55>
 	<v-toolbar-title><span class="font-weight-light">Code</span><span>Name</span></v-toolbar-title>
 	<v-spacer/>
 	<Ident/>
-      </v-toolbar>
+      </v-app-bar>
     </nav>
-    <v-content>{{ internetComputerGreeting || 'Loading message from Internet Computer...' }}</v-content>
+    <v-main>{{ internetComputerGreeting || 'Loading message from Internet Computer...' }}</v-main>
   </v-app>
 </template>
 
