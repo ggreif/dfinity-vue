@@ -10,8 +10,9 @@
     "@dfinity/agent": "0.8.8",
     "assert": "2.0.0",
     "buffer": "6.0.3",
-    "css-loader": "^5.0.1",
+    "css-loader": "^5.2.6",
     "events": "3.3.0",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "5.3.1",
     "process": "0.11.10",
     "stream-browserify": "3.0.0",
@@ -24,6 +25,7 @@
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
+    "material-design-icons-iconfont": "^6.1.0",
     "vue": "^2.6.12",
     "vuetify": "^2.3.19"
   }
