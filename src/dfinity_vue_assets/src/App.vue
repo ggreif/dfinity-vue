@@ -3,8 +3,8 @@
     <nav>
       <v-toolbar app max-height=55>
 	<v-toolbar-title><span class="font-weight-light">Code</span><span>Name</span></v-toolbar-title>
+	<v-spacer/>
 	<Ident/>
-	<!-- <v-spacer/> -->
 	<v-btn flat color="grey">
           <span>Sign Out</span>
 	  <v-icon right>exit_to_app</v-icon>
@@ -18,7 +18,7 @@
 <script>
 import { Actor, HttpAgent } from '@dfinity/agent';
 import { idlFactory as dfinity_vue_idl, canisterId as dfinity_vue_id } from 'dfx-generated/dfinity_vue';
-import Ident from './components/Ident.vue';
+import Ident from './components/Ident';
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 export default {

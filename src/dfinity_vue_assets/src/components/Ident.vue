@@ -1,5 +1,5 @@
 <template>
-  <v-btn>login<v-icon>login</v-icon></v-btn>
+  <v-btn>login<v-icon right>login</v-icon></v-btn>
 </template>
 
 
