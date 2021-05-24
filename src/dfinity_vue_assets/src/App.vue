@@ -18,7 +18,7 @@
 <script>
 import { Actor, HttpAgent } from '@dfinity/agent';
 import { idlFactory as dfinity_vue_idl, canisterId as dfinity_vue_id } from 'dfx-generated/dfinity_vue';
-import Ident from './components/Ident';
+import Ident from './components/Ident.vue';
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 export default {
