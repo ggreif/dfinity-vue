@@ -2,7 +2,9 @@
   <v-app>
     <nav>
       <v-app-bar app max-height=55>
-	<v-toolbar-title><span class="font-weight-light">Code</span><span>Name</span></v-toolbar-title>
+	<v-app-bar-title shrink-on-scroll>
+	  <span class="font-weight-light">Code</span><span>Name</span>
+	</v-app-bar-title>
 	<v-spacer/>
 	<Ident/>
       </v-app-bar>
