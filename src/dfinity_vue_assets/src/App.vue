@@ -11,10 +11,13 @@
 	      <span>Locations</span>
 	    </v-btn>
 	  </template>
+
 	  <v-list>
-	    <v-list-tile :key="'xxx'" router :to="'/nowhere'">
-	      <v-list-tile-title>item</v-list-tile-title>
-	    </v-list-tile>
+	    <v-list-item :key="'xxx'" router :to="{path: '/'}">
+              <v-list-item-content>
+	        <v-list-item-title>item</v-list-item-title>
+              </v-list-item-content>
+	    </v-list-item>
 	  </v-list>
 	</v-menu>
 	<v-spacer/>
