@@ -13,7 +13,7 @@
 	  </template>
 
 	  <v-list>
-	    <v-list-item :key="'xxx'" router :to="{path: '/'}">
+	    <v-list-item :key="'xxx'" :to="{name: 'App', query: { canisterId: 'ryjl3-tyaaa-aaaaa-aaaba-cai' }}">
               <v-list-item-content>
 	        <v-list-item-title>item</v-list-item-title>
               </v-list-item-content>
